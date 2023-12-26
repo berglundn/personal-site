@@ -4,9 +4,9 @@ function TopNavBar () {
     return (
         <div>
             <nav>
-                <ul>
+                <ul id="navbar">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/personal-site">Home</Link>
                     </li>
                     <li>
                         <Link to="/Projects">Projects</Link>
@@ -20,6 +20,6 @@ function TopNavBar () {
             <Outlet />
         </div>
     )
-};
+}
 
 export default TopNavBar();
